@@ -20,8 +20,8 @@
                 "height": 80
               },
               "position": {
-                "x": 40,
-                "y": 130
+                "x": 41,
+                "y": 46
               },
               "angle": 0,
               "id": "e422c896-67dc-4a1d-9500-410368ca8de8",
@@ -98,6 +98,22 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 330,
+                "y": 12
+              },
+              "target": {
+                "x": 332,
+                "y": 316
+              },
+              "vertices": [],
+              "id": "2f4844d5-50e6-4497-82ec-13ae16c4e267",
+              "z": 5,
+              "attrs": {}
             }
           ]
         },
