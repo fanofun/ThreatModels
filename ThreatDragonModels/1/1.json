@@ -40,59 +40,25 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "e422c896-67dc-4a1d-9500-410368ca8de8"
-              },
-              "target": {
-                "id": "c1726573-1a00-4945-9f86-612645014498"
-              },
-              "vertices": [],
-              "id": "a011c075-f0a9-435b-b973-bd56b7efae9a",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 1",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 2,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
+              "type": "tm.Process",
               "size": {
-                "width": 160,
-                "height": 80
+                "width": 100,
+                "height": 100
               },
               "position": {
-                "x": 410,
-                "y": 40
+                "x": 137,
+                "y": 155
               },
               "angle": 0,
-              "id": "c1726573-1a00-4945-9f86-612645014498",
-              "z": 4,
+              "id": "af6bf692-edf0-4519-8bbd-c7de00b032ca",
+              "z": 6,
               "hasOpenThreats": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "store 3"
+                  "text": "process 2"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -103,22 +69,51 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 330,
-                "y": 12
+                "x": 30,
+                "y": 20
               },
               "target": {
-                "x": 332,
-                "y": 316
+                "x": 110,
+                "y": 100
               },
               "vertices": [],
-              "id": "2f4844d5-50e6-4497-82ec-13ae16c4e267",
-              "z": 5,
+              "id": "343a2587-42ed-4b57-9ad4-088d2bc23f48",
+              "z": 7,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 30,
+                "y": 20
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [
+                {
+                  "x": 530,
+                  "y": 29
+                },
+                {
+                  "x": 528,
+                  "y": 38
+                },
+                {
+                  "x": 536,
+                  "y": 1132
+                }
+              ],
+              "id": "ea53aa2f-c37e-467d-b17f-bf8bc609edc1",
+              "z": 8,
               "attrs": {}
             }
           ]
         },
         "size": {
-          "height": 590,
+          "height": 1142,
           "width": 790
         }
       }
